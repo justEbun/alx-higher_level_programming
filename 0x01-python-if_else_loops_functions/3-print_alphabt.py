@@ -4,4 +4,4 @@ alphabet = string.ascii_lowercase
 for letter in alphabet:
     if (letter == "q") or (letter == "e"):
         continue
-    print(letter, end="")
+    print("{}".format(letter), end="")
