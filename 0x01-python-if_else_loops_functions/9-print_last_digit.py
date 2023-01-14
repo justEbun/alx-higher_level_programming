@@ -3,4 +3,5 @@
 def print_last_digit(number):
     number = list(str(number))
     i = number[len(number) - 1]
-    return(i)
+    i = int(i)
+    print(i)
