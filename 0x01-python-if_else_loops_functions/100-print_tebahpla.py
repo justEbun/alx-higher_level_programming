@@ -5,4 +5,4 @@ list(alphabet)
 letters = ""
 for letter in alphabet:
     letters += letter
-print("{}".format(letters))
+print("{}".format(letters), end="")
