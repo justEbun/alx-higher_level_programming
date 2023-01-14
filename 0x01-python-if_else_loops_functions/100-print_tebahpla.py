@@ -2,7 +2,7 @@
 
 alphabet = "zYxWvUtSrQpOnMlKjIhGfEdCbA"
 list(alphabet)
-letter = ""
+letters = ""
 for letter in alphabet:
     letters += letter
 print("{}".format(letters))
