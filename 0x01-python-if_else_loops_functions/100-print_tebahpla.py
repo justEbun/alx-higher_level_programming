@@ -3,4 +3,4 @@
 alphabet = "zYxWvUtSrQpOnMlKjIhGfEdCbA"
 list(alphabet)
 for letter in alphabet:
-    print(letter, end="")
+    print("{}".format(letter), end="")
